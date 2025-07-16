@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
 }
 
 /* CSS For Navbar */
@@ -65,3 +66,52 @@ body {
     font-weight: 100;
 }
 
+/* CSS for Features */
+.features {
+    text-align: center;
+}
+
+.features > h2 {
+    font-size: 40px;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.green-line {
+    border: 3px solid #00B172;
+    /* border-radius: 5px; */
+    width: 330px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > img {
+    width: 150px;
+}
+
+.card > h3 {
+    color: #00B172;
+    font-size: 36px;
+}
+
+.card > p {
+    font-size: 36px;
+    font-weight: lighter;
+}
